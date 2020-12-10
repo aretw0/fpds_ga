@@ -20,11 +20,6 @@ public class ContaTest {
 	}
 	
 	@Test
-	public void test() {
-		assertEquals(100,  99);
-	}
-	
-	@Test
 	public void testDeposito() {
 		conta.deposito(50);
 		assertEquals(100,  conta.saldo());
